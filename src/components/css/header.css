@@ -1,0 +1,132 @@
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #809795;
+  box-shadow: 0 2px 4px rgba(3, 240, 149, 0.1);
+}
+
+/* Logo */
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+.logo a {
+  text-decoration: none;
+  color: rgb(16, 83, 72);
+  padding-left: 35px;
+  font-family: "sixtyfour", sans-serif;
+}
+.logo a:hover {
+  color: #5abea9;
+}
+
+/* Search bar */
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search-bar input {
+  width: 60%;
+  padding: 8px 30px 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.search-bar input:focus {
+  outline: none;
+  border-color: #66e9b7;
+}
+.search-icon {
+  position: absolute;
+  right: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  background: transparent;
+  border: none;
+}
+.search-icon svg {
+  fill: #065a4c;
+  width: 16px;
+  height: 16px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.navbar li {
+  margin-left: 20px;
+}
+
+/* NavLink styling */
+.navbar a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #073031;
+  font-family: "orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+/* Hover */
+.navbar a:hover {
+  color: #f16101;
+  font-size: 15px;
+}
+
+/* Active tab */
+.navbar .active {
+  color: #00704f;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+
+/* Remove underline from icon inside active link */
+.navbar a.active .material-icons {
+  text-decoration: none !important;
+}
+
+
+/* Material icon inside links */
+.material-icons {
+  font-size: 20px;
+  margin-right: 3px;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  color: #073031;
+  font-family: "orbitron", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+.logout-btn:hover {
+  color: #f16101;
+  font-size: 15px;
+}

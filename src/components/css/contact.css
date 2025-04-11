@@ -1,0 +1,102 @@
+.contact-us-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .contact-us-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-us-header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  .contact-us-header p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .contact-us-content {
+    margin: 20px;
+  }
+  
+  .contact-form-section, .contact-info-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-section h2, .contact-info-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 1.1em;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1.1em;
+  }
+  
+  .contact-info-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .contact-info-section ul li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info-section a:hover {
+    text-decoration: underline;
+  }
+  
