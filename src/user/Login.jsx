@@ -10,7 +10,7 @@ const UserLogin = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/user/login", credentials);
+      const response = await axios.post("https://bzeekko.onrender.com/api/auth/user/login", credentials);
 
       const { token } = response.data;
 
